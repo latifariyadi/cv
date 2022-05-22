@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    #2f1d1d 70%,
+    #4e2221 100%
+  );
+}
+
+.container-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.container-header .foto-profil {
+  width: 16vw;
+  border-radius: 50%;
+  background-color: #9ba3eb;
+}
+
+.container-header .nama {
+  margin-top: 2rem;
+}
+
+.nama h2,
+.nama p {
+  color: #ffffff;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  border-bottom: 4px solid #9ba3eb;
+}
+
+.icon img {
+  width: 30px;
+}
+
+.container-main {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.card {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.card-title {
+  flex: 2;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 8;
+}
+
+.card .card-description {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #808080;
+  padding: 0.5rem 0;
+}
+
+.card p {
+  font-size: 0.9rem;
+  line-height: 24px;
+}
+
+.card-content img {
+  width: 200px;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+form input,
+select {
+  width: 100%;
+  height: 32px;
+  border: 1px solid rgba(2, 0, 36, 1);
+  outline: none;
+  padding: 0 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid rgba(2, 0, 36, 1);
+  outline: none;
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-submit {
+  padding: 8px 16px;
+  margin-top: 1rem;
+  background-color: green;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin-top: 2rem;
+  background-color: #15133c;
+  font-size: 0.8rem;
+  color: white;
+}
